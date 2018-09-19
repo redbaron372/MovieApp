@@ -4,6 +4,7 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import NewMovies from './components/NewMovies';
+import MovieInfo from './components/MovieInfo';
 import './style/style.scss';
 const client = new ApolloClient();
 const Root = () => {
